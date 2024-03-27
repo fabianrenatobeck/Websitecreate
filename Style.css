@@ -53,3 +53,29 @@ margin-left: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* CSS-Styling für die Tabelle */
+table {
+  width: 80%; /* Begrenze die Breite der Tabelle auf 80% des Containers */
+  margin: 0 auto; /* Zentriere die Tabelle im Container */
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
