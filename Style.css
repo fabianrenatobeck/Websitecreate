@@ -39,6 +39,19 @@ color: #000 !important;
   align-self: auto;
   flex-direction: column;
 }
+/* Cards */
+
+.card-management {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.card-manager {
+  display: flex;
+  align-content: center;
+  margin-top: 2em;
+}
+
 .card{
   background-color: dimgray;
 margin-left: 20px;
