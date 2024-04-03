@@ -52,38 +52,32 @@
 
 /* Cards */
 
-.card-management {
+
+
+
+.card-manager, .card-management  {
   display: flex;
-  justify-content: space-around;
-  margin-top: 2em;
-  width: 18rem
+  justify-content: space-evenly;
 }
 
-.card-manager {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  width: 20rem
-  /* Abstand zwischen den Karten */
-}
 
 
 .card {
   background-color: dimgray;
   margin-left: 20px;
+  margin-top: 2em;
+  width: 20rem;
 }
 
 .card2 {
   background-color: dimgray;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 20rem;
 }
 
-.AboutUs {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 /* CSS-Styling für die Tabelle */
 table {
@@ -116,8 +110,9 @@ tbody tr:hover {
 }
 .About {
   max-width: 800px;
+  margin-top: 20px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color:dimgray;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
