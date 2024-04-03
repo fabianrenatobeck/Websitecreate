@@ -1,34 +1,44 @@
 .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+}
 
 .navbar-nav a {
-margin-right: 60%; /* Adjust the spacing between navbar links */
+  margin-right: 60%;
+  /* Adjust the spacing between navbar links */
 }
 
 
 /* Override default active link color */
 .nav-link.active {
-color: #000 !important;
+  color: #000 !important;
 }
+
 .navbar-nav .nav-link {
-  border: 2px solid #888; /* Grauer Rahmen */
-  padding: 10px; /* Abstand um den Text */
-  border-radius: 5px; /* Abrundung der Ecken */
-  display: flex; /* Verwendet Flexbox-Layout */
-  align-items: center; /* Zentriert den Text vertikal */
+  border: 2px solid #888;
+  /* Grauer Rahmen */
+  padding: 10px;
+  /* Abstand um den Text */
+  border-radius: 5px;
+  /* Abrundung der Ecken */
+  display: flex;
+  /* Verwendet Flexbox-Layout */
+  align-items: center;
+  /* Zentriert den Text vertikal */
 }
 
 .navbar-nav .nav-link:hover {
-  background-color: #f2f2f2; /* Hintergrundfarbe beim Hover-Effekt */
+  background-color: #f2f2f2;
+  /* Hintergrundfarbe beim Hover-Effekt */
 }
 
 /* Optional: Damit der Rahmen auch sichtbar ist, wenn die Maus nicht darüber ist */
 .navbar-nav .nav-link:focus {
-  outline: none; /* Entfernt den standardmäßigen Fokus-Rahmen */
-  box-shadow: 0 0 0 2px #888; /* Erstellt einen Fokus-Rahmen um den Link */
+  outline: none;
+  /* Entfernt den standardmäßigen Fokus-Rahmen */
+  box-shadow: 0 0 0 2px #888;
+  /* Erstellt einen Fokus-Rahmen um den Link */
 }
 
 /* Custom CSS for contact box */
@@ -39,6 +49,7 @@ color: #000 !important;
   align-self: auto;
   flex-direction: column;
 }
+
 /* Cards */
 
 .card-management {
@@ -46,37 +57,45 @@ color: #000 !important;
   justify-content: space-around;
   margin-top: 2em;
 }
+
 .card-manager {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Abstand zwischen den Karten */
+  gap: 20px;
+  /* Abstand zwischen den Karten */
 }
 
 
-.card{
+.card {
   background-color: dimgray;
-margin-left: 20px;
+  margin-left: 20px;
 }
-.card2{
+
+.card2 {
   background-color: dimgray;
-margin-left: 20px;
+  margin-left: 20px;
 }
+
 .AboutUs {
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 /* CSS-Styling für die Tabelle */
 table {
-  width: 80%; /* Begrenze die Breite der Tabelle auf 80% des Containers */
-  margin: 0 auto; /* Zentriere die Tabelle im Container */
+  width: 80%;
+  /* Begrenze die Breite der Tabelle auf 80% des Containers */
+  margin: 0 auto;
+  /* Zentriere die Tabelle im Container */
   border-collapse: collapse;
   border: 1px solid #ddd;
   font-family: Arial, sans-serif;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: center;
   border-bottom: 1px solid #ddd;
