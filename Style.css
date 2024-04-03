@@ -56,14 +56,14 @@
   display: flex;
   justify-content: space-around;
   margin-top: 2em;
-  width: 18px
+  width: 18rem
 }
 
 .card-manager {
   display: flex;
   justify-content: center;
   gap: 20px;
-  width: 30%
+  width: 20rem
   /* Abstand zwischen den Karten */
 }
 
